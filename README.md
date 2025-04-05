@@ -22,7 +22,7 @@ src
 Creating Packages:
 
 Publish and Subscribe
-Note: There are many default packages comes along with ros installtion.
+Note: There are many default packages comes along with ros installation.
 command: rospack list
 
 catkin_create_pkg <name>
