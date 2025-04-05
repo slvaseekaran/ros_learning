@@ -150,8 +150,7 @@ Create -- Ros Param Yaml File
 
 Simillary like, to run many topic at a particular time -- we use ros
 launch file.
-We need to include this yaml file aslo there in launch file
-
+We need to include this yaml file also there in launch file
 create -- Launch File (for param (yaml file))
 
 ![](images/Pictures/100002010000035A0000008B2E24AACB150F6AA0.png)
