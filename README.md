@@ -11,8 +11,7 @@ build
 - program to machine language
 
 logs
-- reports of run exceution
-
+- reports of run execution
 devel
 - running nodes (codes)
 
