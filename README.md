@@ -171,8 +171,7 @@ Bags for storing ros-data
 
 - run roscore
 - record rosbag
-- publish topic varibales
-
+- publish topic variables
 - play rosbag (where you can see traces)
 - rostopic echo and look for traces
 
