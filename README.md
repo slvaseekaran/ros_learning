@@ -218,3 +218,32 @@ running launch file:
 Playing rosbag:
 
 ![](images/Pictures/10000201000001E5000002582AA2084BE90965D8.png)
+
+
+Autonomous Navigation:
+
+Goal Pose  ----->    Path         ----->  Pose      ----> Controller
+Initial Pose  ---->    Planning  ----->  (Twist)  ---->
+
+Path Planning
+- Global Planner – Takes/ decide on basis of Map/ Slam provided
+- Local Planner – Based on imputs from raw sensors (LIDAR data)
+
+Input:
+- initial pose
+- goal pose
+
+
+Initial Pose: while echoing - the message type is 'PoseWithCorvarianceStamped'
+There are many subset of msgs are there inside this.
+
+PoseWithCorvarianceStamped
+- PoseWithCovariance
+    - Pose
+        - Point
+            - vector float64
+        -Ouaternion orientation
+            - vector float64
+    - float64 covariance
+
+Hack odom value for the initial pose and draft this as his initial pose
